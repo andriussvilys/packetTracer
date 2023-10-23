@@ -1,0 +1,10 @@
+access-list 1 permit 192.168.1.0 0.0.0.255
+access-list 1 permit 192.168.19.0 0.0.0.255
+access-list 1 permit 192.168.29.0 0.0.0.255
+access-list 1 permit 192.168.39.0 0.0.0.255
+access-list 1 permit 192.168.49.0 0.0.0.255
+
+
+ip nat inside source static 192.168.1.4 144.11.2.130
+			    [SOURCE]    [ROUTER]
+

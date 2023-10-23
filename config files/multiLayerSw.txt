@@ -1,0 +1,26 @@
+1) create vlans and assign to interfaces
+
+2) SW(config)# int vlan XXX
+3) assign ip address to vlan interface
+   SW(config)# ip address xxx.xxx.xxx.xxx xxx.xxx.xxx.xxx
+
+int g1/0/1
+switchport mode access
+switcport access vlan 19
+
+int g1/0/2
+switchport mode access
+switcport access vlan 29
+
+int g1/0/1
+switchport mode access
+switcport access vlan 19
+
+int g1/0/1
+switchport mode access
+switcport access vlan 19
+
+144.11.2.162	255.255.255.224
+
+
+C:\Users\iciuk\Desktop

@@ -1,0 +1,19 @@
+ip dhcp excluded-address 192.168.19.1 192.168.19.3
+ip dhcp pool VLAN_MKT_Floor_1
+network 192.168.19.0 255.255.255.0
+default-router 192.168.19.1
+
+ip dhcp excluded-address 192.168.29.1 192.168.29.3
+ip dhcp pool VLAN_MKT_Floor_2
+network 192.168.29.0 255.255.255.0
+default-router 192.168.29.1
+
+ip dhcp excluded-address 192.168.39.1 192.168.39.3
+ip dhcp pool VLAN_MKT_EC
+network 192.168.39.0 255.255.255.0
+default-router 192.168.39.1
+
+ip dhcp excluded-address 192.168.49.1 192.168.49.3
+ip dhcp pool VLAN_MKT_ITMC
+network 192.168.49.0 255.255.255.0
+default-router 192.168.49.1
